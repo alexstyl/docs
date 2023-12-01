@@ -46,9 +46,9 @@ Page view data uses the same endpoint, structured like this:
 
 To send test data, use the following cURL command:
 
-### Testing events
-
 Data should appear on your dashboard within minutes. You can always [export the raw latest data](/export-data) from our dashboard, or use the [Events Explorer](/events-explorer) to find your events.
+
+### Testing events
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{
