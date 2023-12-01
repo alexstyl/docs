@@ -64,7 +64,8 @@ curl -X POST -H "Content-Type: application/json" -d '{
 
 ### Testing page views
 
-```bashcurl -X POST -H "Content-Type: application/json" -d '{
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{
   "type": "pageview",
   "hostname": "mobile-app.example.com",
   "event": "pageview",
